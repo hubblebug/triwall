@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+IMAGEVAR=${1?Error:No file selected}
+
+convert -crop 1920x1080 +repage $IMAGEVAR wallpaper.jpg
+
+
